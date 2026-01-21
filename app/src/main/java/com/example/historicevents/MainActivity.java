@@ -35,14 +35,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void fillTheModels(){
+    private void fillTheModels() {
         String[] eventNames = getResources().getStringArray(R.array.historic_events_names);
         String[] eventDates = getResources().getStringArray(R.array.historic_event_dates);
-        String[] eventLocation = getResources().getStringArray(R.array.historic_events_lugares);
+        String[] eventAnswers = getResources().getStringArray(R.array.historic_events_answers);
 
         for (int i = 0; i < eventNames.length; i++) {
-            eventosHistoricos.add(new EventModel(eventNames[i], eventDates[i], eventLocation[i]));
-
+            eventosHistoricos.add(new EventModel(
+                    eventNames[i],
+                    eventDates[i],
+                    "Historia",
+                    eventAnswers[i]
+            ));
         }
     }
 }

@@ -1,87 +1,76 @@
 <resources>
     <string name="app_name">HistoricEventsRecycler</string>
+
     <string-array name="historic_events_names">
-        <item>Revolucón neolítica</item>
-        <item>Fundación mítica de Roma</item>
-        <item>Inicio de la guerra Del Peloponeso</item>
-        <item>Caída del Imperio Romano</item>
-        <item>Invasión árabe de la peninsula Ibérica</item>
-        <item>Primer ataque vikingo</item>
-        <item>Coronación de Carlomagno</item>
-        <item>Batalla de las Navas de Tolosa</item>
-        <item>Toma de Constantinopla</item>
-        <item>Conquista de Granada</item>
-        <item>Llegada de los europeos a América</item>
-        <item>Inicio de la Guerra de los 30 años</item>
-        <item>in de la dinastía Ming</item>
-        <item>Paz de Westfalia</item>
-        <item>Llegada de los borbones al trono hispánico</item>
-        <item>Independencia de las 13 colonias</item>
+        <item>Ataque Terrorista Torres Gemelas</item>
+        <item>Segunda guerra mundial</item>
+        <item>Covid-19</item>
+        <item>La caida del muro de Berlin</item>
+        <item>Llegada del Hombre a la luna</item>
+        <item>Creación Internet</item>
+        <item>Revolución Industrial</item>
+        <item>Bomba Atomica</item>
+        <item>Primera Guerra Mundial</item>
+        <item>Muerte de Stalin</item>
+        <item>Nacimiento de Stalin</item>
+        <item>Descubrimiento de América</item>
         <item>Revolución Francesa</item>
-        <item>Congreso de Viena</item>
-        <item>Comuna de París</item>
-        <item>Revolución bolchevique</item>
-        <item>Fin de la I Guerra Mundial</item>
-        <item>Inicio de la Guerra Civil Española</item>
-        <item>Fin de la II Guerra Mundial</item>
-        <item>Comienzo de la III Guerra Mundial</item>
-    </string-array>
-    <string-array name="historic_event_dates">
-        <item>9000 a.E.</item>
-        <item>753 a.C.</item>
-        <item>431 a.C </item>
-        <item>476</item>
-        <item>711</item>
-        <item>789</item>
-        <item>800</item>
-        <item>1212</item>
-        <item>1453</item>
-        <item>1492</item>
-        <item>1492</item>
-        <item>1517</item>
-        <item>1524</item>
-        <item>1618</item>
-        <item>1644</item>
-        <item>1648</item>
-        <item>1714</item>
-        <item>1776</item>
-        <item>1789</item>
-        <item>1815</item>
-        <item>1871</item>
-        <item>1917</item>
-        <item>1918</item>
-        <item>1936</item>
-        <item>1945</item>
-        <item>Pronto</item>
+        <item>Caída de Constantinopla</item>
+        <item>Guerra Civil Española</item>
+        <item>Batalla de Waterloo</item>
+        <item>Hundimiento del Titanic</item>
+        <item>Asesinato de Julio César</item>
+        <item>Descubrimiento de la Penicilina</item>
+        <item>Invención de la Imprenta</item>
+        <item>Caída del Imperio Romano</item>
     </string-array>
 
-    <string-array name="historic_events_lugares">
-        <item>Anatolia</item>
-        <item>Lacio</item>
-        <item>Peloponeso</item>
-        <item>Europa</item>
-        <item>Península Ibérica</item>
-        <item>Inglaterra</item>
-        <item>Aquisgrán</item>
-        <item>Jaén</item>
-        <item>Constantinopla</item>
-        <item>Granada</item>
-        <item>América</item>
-        <item>Wittenberg</item>
-        <item>Alemania</item>
-        <item>Europa</item>
-        <item>China</item>
-        <item>Europa</item>
-        <item>Hispania</item>
-        <item>Norteamérica</item>
-        <item>Francia</item>
-        <item>Viena</item>
-        <item>París</item>
-        <item>Rusia</item>
-        <item>Europa</item>
-        <item>España</item>
-        <item>Mundo</item>
-        <item>Quién sabe</item>
+    <string-array name="historic_event_dates">
+        <item>¿Cuando ocurrio?</item>
+        <item>¿Entre que fechas paso?</item>
+        <item>¿Que año fue?</item>
+        <item>¿Que año fue?</item>
+        <item>¿Cuando sucedio?</item>
+        <item>¿Cuando ocurrio?</item>
+        <item>¿Entre que siglos paso?</item>
+        <item>¿Que año se lanzo la primera?</item>
+        <item>¿Entre que fechas paso?</item>
+        <item>¿Cuando fue?</item>
+        <item>¿Cuando fue?</item>
+        <item>¿En qué año llegó Colón?</item>
+        <item>¿En qué año estalló?</item>
+        <item>¿En qué año terminó la Edad Media?</item>
+        <item>¿Entre qué años ocurrió?</item>
+        <item>¿En qué año fue derrotado Napoleón?</item>
+        <item>¿En qué año chocó con el iceberg?</item>
+        <item>¿En qué año antes de Cristo fue?</item>
+        <item>¿En qué año fue descubierta?</item>
+        <item>¿En qué siglo se inventó?</item>
+        <item>¿En qué año ocurrió?</item>
+    </string-array>
+
+    <string-array name="historic_events_answers">
+        <item>2001</item>
+        <item>1939-1945</item>
+        <item>2020</item>
+        <item>1989</item>
+        <item>1969</item>
+        <item>1969</item>
+        <item>XVIII-XIX</item>
+        <item>1945</item>
+        <item>1914-1918</item>
+        <item>1953</item>
+        <item>1878</item>
+        <item>1492</item>
+        <item>1789</item>
+        <item>1453</item>
+        <item>1936-1939</item>
+        <item>1815</item>
+        <item>1912</item>
+        <item>44</item>
+        <item>1928</item>
+        <item>XV</item>
+        <item>476</item>
     </string-array>
 
 </resources>
